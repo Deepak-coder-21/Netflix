@@ -1,0 +1,360 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.main {
+    background-image: url("Elements/bg.jpg");
+    height: 90vh;
+    width: 100%;
+    position: relative;
+}
+
+.main .box {
+    height: 90vh;
+    width: 100%;
+    opacity: 0.5;
+    background-color: black;
+    position: absolute;
+    top: 0;
+}
+
+
+nav {
+    height: 80px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 150px;
+    position: relative;
+    z-index: 10;
+}
+
+nav button {
+    border-radius: 4px;
+    width: 76px;
+    padding: 5px;
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    margin: 8px;
+    cursor: pointer;
+}
+
+.red {
+    color: white;
+    background-color: red;
+    font-weight: 700;
+}
+
+span img {
+    width: 124px;
+}
+
+.text {
+
+    display: flex;
+    height: calc(100% - 80px);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    flex-direction: column;
+    position: relative;
+    gap: 20px;
+    padding: 0 10px;
+}
+
+.text> :nth-child(1) {
+    font-family: "Roboto", sans-serif;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.text> :nth-child(2) {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.text> :nth-child(3) {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+
+.line {
+    width: 100%;
+    height: 4px;
+    background-color: gray;
+}
+
+.area {
+    height: 70vh;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    gap: 30px;
+    padding: 10px;
+    margin: auto;
+}
+
+.area div span {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+}
+
+.setext span {
+    padding: 10px;
+}
+
+
+
+.setext :nth-child(1) {
+    font-family: "Roboto", sans-serif;
+    text-align: left;
+    font-size: 48px;
+    font-weight: 800;
+    width: 40vw;
+}
+
+.setext :nth-child(2) {
+    font-family: "Roboto", sans-serif;
+    text-align: left;
+    width: 40vw;
+    text-wrap: wrap;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+
+input {
+    background-color: transparent;
+    padding: 15px 100px 15px 9px;
+    color: white;
+    border-radius: 4px;
+}
+
+
+.btn {
+    padding: 15px 30px 15px 30px
+}
+
+.first {
+    position: relative;
+}
+
+.first video {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    max-width: 73%;
+    max-height: 54%;
+    top: 20%;
+    left: 13%;
+}
+
+
+
+.first img {
+    position: relative;
+    width: 30vw;
+    z-index: 10;
+}
+
+.fortharea {
+    height: 70vh;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    gap: 30px;
+    padding: 10px;
+    margin: auto;
+}
+
+.fortharea div span {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.fortharea .first video {
+    position: absolute;
+    width: 60%;
+    height: 100%;
+    max-width: 73%;
+    max-height: 54%;
+    top: 2%;
+    left: 19%;
+}
+
+.sixtharea {
+    height: 110vh;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    margin: auto;
+
+}
+
+.box {
+    min-width: 75vw;
+    height: 50px;
+    background-color:rgb(45 45 45);
+
+}
+
+.sixtharea>p {
+    font-family: "Roboto", sans-serif;
+    font-size: 48px;
+    font-weight: 900;
+    padding: 10px;
+}
+
+.inputarea div {
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 20px;
+
+}
+
+.box {
+    font-family: "Roboto", sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+    padding: 4px;
+    text-wrap: nowrap;
+    font-size: 24px;
+    font-weight: 400;
+    cursor: pointer;
+
+}
+
+.box:hover{
+    background-color: rgb(65 65 65);
+}
+
+.contaner {
+    display: grid;
+    grid-template-columns: 150px 150px 150px;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    width: auto;
+    height: auto;
+    column-gap: 150px;
+    row-gap: 8px;
+    justify-content: center;
+    align-items: center;
+    padding: 80px;
+    padding-right: 190px;
+
+}
+
+.item {
+    font-family: "Roboto", sans-serif;
+    opacity: 0.7;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: left;
+    
+}
+
+.item-1 {
+    align-items: flex-start;
+    grid-column: 1/4;
+    grid-row: 1/5;
+    display: flex;
+    margin: 20px;
+    margin-left: 0px;
+}
+
+.contaner button {
+    background-color: transparent;
+    width: 100px;
+    color: white;
+    border: 1px solid white;
+    border-radius: 4px;
+    margin-top: 20px;
+}
+
+@media (max-width:800px ){
+    .text> :nth-child(1) {
+        font-family: "Roboto", sans-serif;
+        font-size: 36px;
+        font-weight: 600;
+    }
+    
+    .text> :nth-child(2) {
+        font-family: "Roboto", sans-serif;
+        font-weight: 300;
+        font-size: 18px;
+    }
+    
+    .text> :nth-child(3) {
+        font-family: "Roboto", sans-serif;
+        font-weight: 300;
+        font-size: 16px;
+    }
+
+    .contaner {
+        
+        grid-template-columns: 1fr 1fr;
+    
+    }
+
+    .area {
+           flex-direction: column;
+    }
+    
+    .setext :nth-child(1) {
+        font-family: "Roboto", sans-serif;
+        text-align: center;
+        font-size: 36px;
+        font-weight: 600;
+        width: fit-content;
+    }
+    
+    .setext :nth-child(2) {
+        font-family: "Roboto", sans-serif;
+        text-align: center;
+        width: fit-content;
+        text-wrap: wrap;
+        font-size: 18px;
+        font-weight: 300;
+    }
+
+    .setext span {
+        padding: 4px;
+    }
+    
+    .fortharea{
+        flex-direction: column;
+    }
+    
+    
+    .first img {
+        position: relative;
+        width: 45vw;
+        z-index: 10;
+    }
+}
